@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+.app-menu {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    list-style-type: none;
+    padding: 1rem;
+    
+    .nav-link {
+        color: rgb(44, 44, 44);
+        text-decoration: none;
+    }
+    .active {
+        color:darkgray;
+    }
+}
